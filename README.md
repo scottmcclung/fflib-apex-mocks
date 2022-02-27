@@ -11,6 +11,12 @@ It derives its inspiration from the well known Java mocking framework [Mockito](
 	   src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
 </a>
 
+Install as an unlocked package
+
+Browser link: `https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007vP3aQAE`
+
+Salesforce CLI: `sfdx force:package:install -p 04t1U000007vP3aQAE -u user@example.com -w 20`
+
 ## Using ApexMocks on the Salesforce Lightning Platform
 
 ApexMocks allows you to write tests to both verify behavior and stub dependencies.
